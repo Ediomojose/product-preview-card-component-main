@@ -84,6 +84,10 @@ button:hover{
     opacity: 0.8;
 }
 
+.space{
+    padding: 25px;
+}
+
 .attribution { 
     font-size: 11px; text-align: center;
     text-align: center;
@@ -124,6 +128,10 @@ button:hover{
     .text{
         font-size: 0.8em;
         letter-spacing: 0px;
+    }
+
+    .space{
+        padding: 10px;
     }
 
     
