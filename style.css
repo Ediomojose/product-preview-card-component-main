@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: bisque;
+    min-height: 100vh;
 }
 
 main{
@@ -18,8 +19,6 @@ main{
     margin: 50px auto;
     background-color: white;
     border-radius: 10px;
-    position: relative;
-    top: 80px;
 }
 
 .card-img .desktop{
@@ -34,6 +33,7 @@ main{
 .text-1{
     letter-spacing: 5px;
     color: hsl(212, 21%, 14%);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .card-content h1{
@@ -67,6 +67,7 @@ main{
 .slash-price{
     text-decoration: line-through;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
 }
 
 button{
@@ -78,14 +79,11 @@ button{
     color: white;
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 button:hover{
     opacity: 0.8;
-}
-
-.space{
-    padding: 25px;
 }
 
 .attribution { 
@@ -116,6 +114,7 @@ button:hover{
     .card-img .mobile{
         display: block;
         width: 100%;
+        border-radius: 5px;
     }
 
     .card-content h1{
@@ -128,10 +127,6 @@ button:hover{
     .text{
         font-size: 0.8em;
         letter-spacing: 0px;
-    }
-
-    .space{
-        padding: 10px;
     }
 
     
